@@ -1,6 +1,6 @@
 /*
+Задача №5_ Операторы
 Напишите простой калькулятор:
-
 Ввести 2 числа с клавиатуры, затем один из символов ‘+’, ‘-’, ‘*’ или ‘/’.
 В зависимости от символа вывести в консоль результат выполнения соответствующей арифметической операции.
  */
@@ -13,6 +13,7 @@ import java.util.StringTokenizer;
 public class TaskWork05 {
     public static void main(String[] args) {
 
+        System.out.println("Введите 2 числа и математическую операцию через пробел: ");
         Scanner scanner = new Scanner(System.in);
 
         String expression = scanner.nextLine();
@@ -28,7 +29,16 @@ public class TaskWork05 {
             case "+":
                 result = a + b;
                 break;
+            case "-":
+                result = a - b;
+                break;
+            case "*":
+                result = a * b;
+                break;
+            case "/":
+                result = a / b;
         }
 
         System.out.println(result);
     }
+}
