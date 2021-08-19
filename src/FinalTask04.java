@@ -2,6 +2,7 @@ package com.company.avg18;
  import java.util.Scanner;
 
 public class FinalTask04 {
+
     /*
     Итоговая задача №4
  Напишите программу-загадку: “Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает”.
